@@ -63,11 +63,15 @@ docker run -d --name my-codeserver-container -p 8443:8443 -p 10000-10099:10000-1
     >python __main__.py
 
 3. Test LangGraph Agent in a New Terminal: In a new terminal (with the virtual environment activated), you can test the LangGraph agent with the following examples:
-    > Run test client: python samples/python/agents/langgraph/app/test_client.py
+    Run test client: 
+    >python samples/python/agents/langgraph/app/test_client.py
 
-    >  Currency Exchange Example: python samples/python/agents/langgraph/app/currency_exchange.py --question "10 GBP to INR"
+    Currency Exchange Example: 
     
-    >  Invalid Query Example (Currency Agent): python samples/python/agents/langgraph/app/currency_exchange.py --question "Temperature in Delhi"
+    > python samples/python/agents/langgraph/app/currency_exchange.py --question "10 GBP to INR"
+
+    Invalid Query Example (Currency Agent): 
+    >python samples/python/agents/langgraph/app/currency_exchange.py --question "Temperature in Delhi"
 
 ## 📋 Full Tutorial & Documentation
 For a more detailed tutorial and documentation, please refer to the full guide here:
